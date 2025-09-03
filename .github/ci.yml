@@ -20,3 +20,4 @@ jobs:
         run: |
             docker login -u arland99 -p ${{secrets.REGISTRY_PASS}}
             docker push arland99/portfolio
+
